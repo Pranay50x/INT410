@@ -11,23 +11,37 @@
 // }
 
 //Positional Parameter in dart
-void printInfo(String name, String gender){
-  print("Hello $name, you are $gender"); 
-}
+// void printInfo(String name, String gender){
+//   print("Hello $name, you are $gender"); 
+// }
 
-void main(){
-  printInfo("John", "Male"); 
-  printInfo("Jane", "Female");
-}
+// void main(){
+//   printInfo("John", "Male"); 
+//   printInfo("Jane", "Female");
+// }
 
 //default value in Positional Parameter
-void printInfo(String name, String gender, [String title="sir/ma'am"]){
-  print("Hello $title $name, you are $gender"); 
-}
+// void printInfo(String name, String gender, [String title="sir/ma'am"]){
+//   print("Hello $title $name, you are $gender"); 
+// }
 
-void main(){
-  printInfo("John", "Male"); 
-  printInfo("Jane", "Female","Ms");
-  printInfo("Doe","Male","Mr");
-}
+// void main(){
+//   printInfo("John", "Male"); 
+//   printInfo("Jane", "Female","Ms");
+//   printInfo("Doe","Male","Mr");
+// }
 
+// void main() {
+//   var addNumbers= (int a , int b){
+//     return a+b;
+//   };
+//   var result = addNumbers(10, 20);
+
+//   print("Sum of two numbers is: $result");
+// }
+
+// void main(){
+//   String greet(String name)
+//     => "Hello $name";
+//   print(greet("Pranay"));   
+// }
