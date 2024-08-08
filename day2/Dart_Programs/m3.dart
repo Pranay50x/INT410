@@ -1,4 +1,4 @@
-class Person(){
+class Person{
   String? name; 
   int? age; 
 
@@ -14,14 +14,13 @@ class Student extends Person{
   String? schoolAddress;
 
   void studentDisplay(){
-    display();
     print("School Name: $schoolName");
     print("School Address: $schoolAddress");
   } 
 }
 
 void main(){
-  Student student = Student();
+  var student = Student();
   student.name = "Pranay";
   student.age = 20;
   student.schoolName = "XYZ School";
