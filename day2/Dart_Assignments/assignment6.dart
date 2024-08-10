@@ -17,9 +17,13 @@ class PasswordGenerator {
     }
     return password;
   }
+
+  void displayPassword() {
+    print("Password: ${generatePassword()}");
+  }
 }
 
 void main() {
   PasswordGenerator passwordGenerator = PasswordGenerator(12, true);
-  print("Password: ${passwordGenerator.generatePassword()}");
+  passwordGenerator.displayPassword();
 }
